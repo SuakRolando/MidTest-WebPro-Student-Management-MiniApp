@@ -2,7 +2,30 @@
 {
     background-color: rgb(81, 0, 128) !important;
 }
+
+.bg-putih
+{
+    background-color: #fff !important;
+}
+
 .text-indigo
 {
     color: rgb(81, 0, 128) !important;
+}
+
+.selector-for-some-widget 
+{
+    box-sizing: content-box;
+}
+
+.my-button
+{
+    background-color: black !important;
+    border-color: blanchedalmond !important;
+    border: blanchedalmond !important;
+    color: white !important;
+    box-shadow: red !important;
+    
+    border-radius: 0px;
+    margin-bottom: 5px;
 }

@@ -35,7 +35,7 @@
       <div class="row">
         <div class="col-6">
           <h4>Add Student</h4>
-          <button type="button" class="btn btn-primary bg-indigo">Show Form Add New Student</button>
+          <button type="button" class="btn btn-primary bg-indigo box-shadow">Show Form Add New Student</button>
           <form class="mt-4">
             <div class="mb-3">
               <label for="StudentID" class="form-label">Student ID (NIM)</label>
@@ -71,24 +71,138 @@
                 <option value="2">Fakultas Keperawatan</option>
                 <option value="2">Akedemik Sekretari Manajemen Indonesia Klabat</option>
               </select>
+
+              
             </div>
     
             <div class="my-3">
               <label for="selectProgram" class="form-label">Program Of Study</label>
               <select class="form-select" aria-label="Default select example">
                 <option selected>-- SELECT PROGRAM OF STUDY --</option>
-                
               </select>
+
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-primary bg-indigo mt-3">Add Student</button>
+              </div>
             </div>
           </form>
         </div>
-        <div class="col-6">
+        <div class="container col-6">
           <h4>Filter By Student</h4>
+          <div class="my-3">
+            <label for="selectFaculty" class="form-label">Faculty</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>-- SELECT FACULTY --</option>
+              <option value="1">Pascasarjana</option>
+              <option value="2">Fakultas Filsafat</option>
+              <option value="3">Fakultas Keguruan dan Ilmu Pendidikan</option>
+              <option value="4">Fakultas Ekonomi dan Bisnis</option>
+              <option value="2">Fakultas Pertanian</option>
+              <option value="2">Fakultas Ilmu Komputer</option>
+              <option value="2">Fakultas Keperawatan</option>
+              <option value="2">Akedemik Sekretari Manajemen Indonesia Klabat</option>
+            </select>
+
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-primary bg-indigo mt-3">Show Student</button>
+            </div>
+          </div>
+  
+          <div class="my-3">
+            <label for="selectProgram" class="form-label">Program Of Study</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>-- SELECT PROGRAM OF STUDY --</option>
+            </select>
+
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-primary bg-indigo mt-3">Show Student</button>
+            </div>
+          </div>
         </div>
       </div>
-
-      
+      <hr>
     </div>
+    
+    <div class="container">
+      <h1 class="text-center fw-light">Our Students</h1>
+    </div>
+
+    <div class=" container col-sm">
+      <input type="search" class="form-control form-control-sm fs-6 fw-light" id="colFormLabelSm" placeholder="Search student by name...">
+    </div>
+
+    <div class="container row-lg mt-2">
+      <table class="table table-degault">
+        <tr><td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td></tr>
+        <tr>
+          <td class="fw-bold">Student ID (NIM)
+          </td>
+          <td class="fw-bold">
+            Full Name
+          </td>
+          <td class="fw-bold">
+            Gender
+          </td>
+          <td class="fw-bold">
+            Faculty</td>
+          <td class="fw-bold">
+            Program of Study
+          </td>
+          <td class="fw-bold">
+            Action
+          </td>
+        </tr>
+        <tr>
+          <td>105089347623
+          </td>
+          <td>
+            Michael Joe
+          </td>
+          <td>
+            Female
+          </td>
+          <td>
+            Fakultas Ilmu Komputer
+          </td>
+          <td>
+            Sistem Informasi
+          </td>
+          <td>
+            Action
+          </td>
+        </tr>
+        <tr>
+          <td>105045827623
+          </td>
+          <td>
+            Syenah Joe
+          </td>
+          <td>
+            Male
+          </td>
+          <td>
+            Fakultas Keperawatan
+          </td>
+          <td>
+            Keperawatan
+          </td>
+          <td>
+            Action
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+    <div class="container">
+      <button type="button" class="btn btn-default my-button ">Primary</button>
+    </div>
+
 
     
 
