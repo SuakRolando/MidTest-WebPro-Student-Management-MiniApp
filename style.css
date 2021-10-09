@@ -33,17 +33,17 @@
     
 }
 
-
+.border-R
+{
+    border-radius: 0px;
+}
 
 
 .my-button
 {
     background-color: black !important;
-    border-color: blanchedalmond !important;
-    border: blanchedalmond !important;
+    border-color: red !important;
     color: white !important;
-    box-shadow: red !important;
-    
     border-radius: 0px;
     margin-bottom: 5px;
 }
